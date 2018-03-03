@@ -1,3 +1,12 @@
+### WC + DOSBOX notes
+# WC runs well with core=normal and cycles limited to <6000
+# core=dynamic crashes WC2
+# launch WC2 with "loadfix -32 WC2" or "loadfix -16 wc2"
+
+# Importing savegames from WC1 is possible - just copy SAVEGAME.WLD from WC1 and launch WC2, then import
+# https://pcgamingwiki.com/wiki/Wing_Commander_II:_Vengeance_of_the_Kilrathi#Import_characters
+
+
 # This is the configurationfile for DOSBox 0.74. (Please use the latest version of DOSBox)
 # Lines starting with a # are commentlines and are ignored by DOSBox.
 # They are used to (briefly) document the effect of each option.

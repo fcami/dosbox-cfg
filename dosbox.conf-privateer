@@ -1,3 +1,11 @@
+
+### Privateer + DOSBOX notes
+# Privateer is framerate-limited and requires a lot more CPU due to jump points' transparency effects and number of enemies.
+# WC1/2 run well with core=normal and cycles limited to <6000, but Privateer is better off with:
+# core=dynamic
+# cputype=386
+# cycles=fixed 32000
+
 # This is the configurationfile for DOSBox 0.74. (Please use the latest version of DOSBox)
 # Lines starting with a # are commentlines and are ignored by DOSBox.
 # They are used to (briefly) document the effect of each option.
